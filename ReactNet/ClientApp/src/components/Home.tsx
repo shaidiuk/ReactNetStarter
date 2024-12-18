@@ -4,7 +4,9 @@ import { connect } from 'react-redux';
 const Home = () => (
   <>
     <h1>Hello, world!</h1>
-    <p>The <code>ClientApp</code> subdirectory is a standard React application based on the <code>create-react-app</code> template. If you open a command prompt in that directory, you can run <code>npm</code> commands such as <code>npm test</code> or <code>npm install</code>.</p>
+        <p>This is a starter project using .NET 7 and React with TypeScript. It features functional components, routing and utilizes Redux.</p>
+        <p>This app was created by me in September 2023 over 1 day, without any recent experience in React.js functional programming and no prior experience with TypeScript.</p>
+        <p>Go to the Counter tab to view the router and counter states via Redux.</p>
   </>
 );
 
