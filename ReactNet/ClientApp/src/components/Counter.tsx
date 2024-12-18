@@ -7,7 +7,7 @@ type CounterProps =
     CounterStore.CounterState &
     typeof CounterStore.actionCreators;
 
-function Counter({ count, increment }: CounterProps) {
+function Counter({ count, increment, decrement }: CounterProps) {
     return (
         <>
             <h1>Counter</h1>
@@ -20,6 +20,12 @@ function Counter({ count, increment }: CounterProps) {
                 className="btn btn-primary btn-lg"
                 onClick={increment}>
                 Increment
+            </button>
+
+            <button type="button"
+                className="btn btn-primary btn-lg"
+                onClick={decrement}>
+                Decrement
             </button>
         </>
     )};
